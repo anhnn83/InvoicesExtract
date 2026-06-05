@@ -1,0 +1,9 @@
+# 1. Đầu tiên, bỏ qua toàn bộ tất cả các file và thư mục
+*
+
+# 2. NHƯNG ngoại trừ (giữ lại) file mã nguồn chính
+!InvoicesExtract.py
+
+# 3. (Khuyến nghị) Nên giữ lại cả file .gitignore và README.md để Git theo dõi
+!.gitignore
+!README.md
