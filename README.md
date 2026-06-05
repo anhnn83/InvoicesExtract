@@ -92,7 +92,7 @@ Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều đ
 **File thực thi (.exe):** [Download](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
 
 ## License
-Dự án này được cấp phép theo các điều khoản của [MIT License](LICENSE). Mọi người được phép tự do sử dụng, chỉnh sửa và phân phối.
+Dự án này được cấp phép theo các điều khoản của [GNU General Public License v3.0](LICENSE). Tất cả các tệp mã nguồn trong kho lưu trữ này đều thuộc phạm vi áp dụng của giấy phép này trừ khi có tuyên bố khác.
 
 Mã nguồn gốc © [InvoicesExtract AI by anhnn](https://github.com/cronpostps/InvoicesExtract)
 
