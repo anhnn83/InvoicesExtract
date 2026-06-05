@@ -8,6 +8,10 @@
 
 ---
 
+**Download latest version of InvoicesExtract(.exe):** [Download](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
+
+---
+
 > 💡 **Tip cho Coder:** Hãy copy-paste toàn bộ nội dung tài liệu này cho một AI (ChatGPT/Gemini/Claude...) để nó có ngữ cảnh và giúp bạn gỡ lỗi, nâng cấp thêm tính năng (như thêm progress bar, tối ưu prompt) nhanh chóng hơn!
 
 ---

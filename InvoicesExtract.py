@@ -4,6 +4,7 @@ import os
 import json
 import threading
 import time
+import sys
 from typing import List
 
 from openpyxl import Workbook, load_workbook
@@ -40,6 +41,14 @@ class InvoiceApp:
         self.root = root
         self.root.title(f"InvoicesExtract AI (anhnn@2025)")
         self.root.geometry("750x650")
+
+        # --- CẤU HÌNH ICON GUI ---
+        base_path = getattr(sys, '_MEIPASS', os.path.abspath("."))
+
+        icon_path = os.path.join(base_path, "Icon", "InvoicesExtract.ico")
+        if os.path.exists(icon_path):
+            self.root.iconbitmap(icon_path)
+        # -------------------------
         
         # --- Flag điều khiển dừng ---
         self.stop_requested = False

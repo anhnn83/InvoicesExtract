@@ -3,7 +3,7 @@
 
 # 2. NHƯNG ngoại trừ (giữ lại) file mã nguồn chính
 !InvoicesExtract.py
-
-# 3. (Khuyến nghị) Nên giữ lại cả file .gitignore và README.md để Git theo dõi
 !.gitignore
 !README.md
+!build.bat
+!\Icon\InvoiceExtract.ico
