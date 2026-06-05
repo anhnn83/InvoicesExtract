@@ -84,7 +84,7 @@ python -m PyInstaller --noconfirm --onefile --windowed .\InvoicesExtract.py
 
 ## ☎️ 5. Đóng góp & Mã nguồn mở
 
-**Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều được hoan nghênh tại kho lưu trữ chính thức!**
+**Mọi đóng góp, tối ưu code & báo lỗi đều được hoan nghênh tại kho lưu trữ chính thức!**
 
 **👨‍💻 Dev by ANHNN**
 
