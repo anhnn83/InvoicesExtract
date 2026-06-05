@@ -38,16 +38,24 @@ class InvoiceInfo(BaseModel):
 class InvoiceApp:
     def __init__(self, root):
         self.root = root
-        self.root.title(f"Tool Hóa Đơn AI (anhnn)")
+        self.root.title(f"InvoicesExtract AI (anhnn@2025)")
         self.root.geometry("750x650")
         
         # --- Flag điều khiển dừng ---
         self.stop_requested = False
 
         # GUI
-        tk.Label(root, text=f"Gemini API Key (Model: {MODEL_NAME}):").pack(pady=5)
+        # --- GUI API Key (Đã thêm nút Hướng dẫn) ---
+        frame_api = tk.Frame(root)
+        frame_api.pack(pady=5)
+        
+        tk.Label(frame_api, text=f"Gemini API Key (Model: {MODEL_NAME}):").pack(side=tk.LEFT)
+        self.btn_guide = tk.Button(frame_api, text="Hướng dẫn lấy Key", bg="#17a2b8", fg="white", font=("Arial", 9), command=self.show_api_guide)
+        self.btn_guide.pack(side=tk.LEFT, padx=10)
+
         self.entry_api = tk.Entry(root, width=75, show="*")
         self.entry_api.pack(pady=5)
+        # ------------------------------------------
         
         tk.Label(root, text="Thư mục chứa PDF/IMG/XML:").pack(pady=5)
         self.entry_folder = tk.Entry(root, width=75)
@@ -91,6 +99,37 @@ class InvoiceApp:
 
     def show_info(self, title, message):
         self.root.after(0, lambda: messagebox.showinfo(title, message))
+
+    def show_api_guide(self):
+        guide_text = """
+HƯỚNG DẪN LẤY GEMINI API KEY MIỄN PHÍ
+
+Bước 1: Mở trình duyệt web và truy cập vào trang:
+         👉 https://aistudio.google.com/
+
+Bước 2: Đăng nhập bằng tài khoản Google (Gmail) của bạn.
+
+Bước 3: Nhìn sang menu bên trái, bấm vào "Get API key".
+
+Bước 4: Bấm nút màu xanh "Create API key".
+         - Nếu được hỏi, hãy chọn một Project có sẵn hoặc tạo mới.
+         - Sao chép (Copy) đoạn mã Key dài loằng ngoằng vừa hiện ra.
+
+Bước 5: Quay lại ứng dụng này, dán (Paste) đoạn mã đó vào ô "Gemini API Key".
+
+Lưu ý: API Key của bạn sẽ được lưu lại tự động cho những lần sử dụng sau. Tuyệt đối không chia sẻ Key này cho người lạ!
+        """
+        # Tạo một cửa sổ Toplevel để hiển thị nội dung dài
+        guide_win = tk.Toplevel(self.root)
+        guide_win.title("Hướng dẫn lấy Gemini API Key")
+        guide_win.geometry("550x350")
+        guide_win.resizable(False, False)
+        
+        # Đưa nội dung vào Text box dạng Read-Only để người dùng có thể copy link
+        text_area = tk.Text(guide_win, wrap=tk.WORD, font=("Arial", 10), padx=15, pady=15, bg="#f8f9fa")
+        text_area.insert(tk.END, guide_text.strip())
+        text_area.config(state=tk.DISABLED) # Không cho phép sửa nội dung
+        text_area.pack(expand=True, fill=tk.BOTH)
 
     def load_config(self):
         if os.path.exists(CONFIG_FILE):
