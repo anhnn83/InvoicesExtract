@@ -3,16 +3,11 @@
 [![Language](https://img.shields.io/badge/Language-Python%203.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![AI Model](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-F9AB00?style=for-the-badge&logo=google&logoColor=white)](#)
 [![GUI](https://img.shields.io/badge/GUI-Tkinter-lightgrey?style=for-the-badge)](#)
-[![Latest Version](https://img.shields.io/badge/-Latest%20Version-blue?style=for-the-badge)](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
+
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cronpostps/InvoicesExtract)
+[![Latest Version](https://img.shields.io/badge/-Latest%20Version-blue?style=for-the-badge)](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
 
 > **InvoicesExtract AI** là công cụ tự động hóa trích xuất dữ liệu từ các hóa đơn, biên lai (PDF, Hình ảnh, XML) bằng sức mạnh của **Google Gemini API**. Hệ thống giúp số hóa dữ liệu hóa đơn hàng loạt, tự động phân loại tiền tệ và xuất ra file Excel chuẩn chỉnh, giúp kế toán viên tiết kiệm hàng giờ nhập liệu thủ công và hạn chế tối đa sai sót.
-
----
-
-
-
-
 
 ---
 
@@ -89,19 +84,15 @@ python -m PyInstaller --noconfirm --onefile --windowed .\InvoicesExtract.py
 
 ## ☎️ 5. Đóng góp & Mã nguồn mở
 
+**Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều được hoan nghênh tại kho lưu trữ chính thức!**
+
 **Dev by anhnn**
 
 ➤ **Telegram:** [t.me/anhnn83](https://t.me/anhnn83)
 
 ✉ **Email:** [anhnn@dgd.vn](mailto:anhnn@dgd.vn)
 
-**Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều được hoan nghênh tại kho lưu trữ chính thức!**
-
-**GitHub Repository:** [github.com/cronpostps/InvoicesExtract](https://github.com/cronpostps/InvoicesExtract)
-
-**File thực thi (.exe):** [Download](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
-
-Xem thêm các dự án do [anhnn](https://t.me/anhnn83) dev tại [anhnn.cronpost.com](https://anhnn.cronpost.com)
+**Xem thêm các dự án do [anhnn](https://t.me/anhnn83) dev tại [anhnn.cronpost.com](https://anhnn.cronpost.com)**
 
 ---
 
