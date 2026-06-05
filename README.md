@@ -86,13 +86,13 @@ python -m PyInstaller --noconfirm --onefile --windowed .\InvoicesExtract.py
 
 **Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều được hoan nghênh tại kho lưu trữ chính thức!**
 
-**Dev by anhnn**
+**👨‍💻 Dev by anhnn**
 
-➤ **Telegram:** [t.me/anhnn83](https://t.me/anhnn83)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/anhnn83)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anhnn@dgd.vn)
+[![Website](https://img.shields.io/badge/Website-anhnn.cronpost.com-181717?style=for-the-badge&logo=google-chrome&logoColor=white)](https://anhnn.cronpost.com)
 
-✉ **Email:** [anhnn@dgd.vn](mailto:anhnn@dgd.vn)
-
-**Xem thêm các dự án do [anhnn](https://t.me/anhnn83) dev tại [anhnn.cronpost.com](https://anhnn.cronpost.com)**
+**Xem thêm các dự án do anhnn dev tại [anhnn.cronpost.com](https://anhnn.cronpost.com)**
 
 ---
 
