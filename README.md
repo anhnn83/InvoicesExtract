@@ -8,7 +8,9 @@
 
 ---
 
-**Download latest version of InvoicesExtract(.exe):** [Download](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
+**Download latest version of InvoicesExtract:** [Download](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
+
+![GitHub Logo](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg)
 
 ---
 
@@ -85,15 +87,24 @@ python -m PyInstaller --noconfirm --onefile --windowed .\InvoicesExtract.py
 
 ## ☎️ 5. Đóng góp & Mã nguồn mở
 
-Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều được hoan nghênh tại kho lưu trữ chính thức!
+**Dev by anhnn**
+
+➤ **Telegram:** [t.me/anhnn83](https://t.me/anhnn83)
+
+✉ **Email:** [anhnn@dgd.vn](mailto:anhnn@dgd.vn)
+
+**Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều được hoan nghênh tại kho lưu trữ chính thức!**
 
 **GitHub Repository:** [github.com/cronpostps/InvoicesExtract](https://github.com/cronpostps/InvoicesExtract)
 
 **File thực thi (.exe):** [Download](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
 
+Xem thêm các dự án do [anhnn](https://t.me/anhnn83) dev tại [anhnn.cronpost.com](https://anhnn.cronpost.com)
+
+---
+
 ## License
+
 Dự án này được cấp phép theo các điều khoản của [GNU General Public License v3.0](LICENSE). Tất cả các tệp mã nguồn trong kho lưu trữ này đều thuộc phạm vi áp dụng của giấy phép này trừ khi có tuyên bố khác.
 
-Mã nguồn gốc © [InvoicesExtract AI by anhnn](https://github.com/cronpostps/InvoicesExtract)
-
-Xem thêm các dự án do [anhnn](https://t.me/anhnn83) dev tại [anhnn.cronpost.com](https://anhnn.cronpost.com)
+Mã nguồn gốc © 2026 [InvoicesExtract AI by anhnn](https://github.com/cronpostps/InvoicesExtract)
