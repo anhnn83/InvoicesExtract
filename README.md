@@ -3,14 +3,16 @@
 [![Language](https://img.shields.io/badge/Language-Python%203.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![AI Model](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-F9AB00?style=for-the-badge&logo=google&logoColor=white)](#)
 [![GUI](https://img.shields.io/badge/GUI-Tkinter-lightgrey?style=for-the-badge)](#)
+[![Latest Version](https://img.shields.io/badge/-Latest%20Version-blue?style=for-the-badge)](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cronpostps/InvoicesExtract)
 
 > **InvoicesExtract AI** là công cụ tự động hóa trích xuất dữ liệu từ các hóa đơn, biên lai (PDF, Hình ảnh, XML) bằng sức mạnh của **Google Gemini API**. Hệ thống giúp số hóa dữ liệu hóa đơn hàng loạt, tự động phân loại tiền tệ và xuất ra file Excel chuẩn chỉnh, giúp kế toán viên tiết kiệm hàng giờ nhập liệu thủ công và hạn chế tối đa sai sót.
 
 ---
 
-**Download Tool** [![Latest Version](https://img.shields.io/badge/-Latest%20Version-blue?style=for-the-badge)](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
 
-**Source Code** [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cronpostps/InvoicesExtract)
+
+
 
 ---
 
