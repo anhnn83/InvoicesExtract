@@ -84,6 +84,7 @@ python -m PyInstaller --noconfirm --onefile --windowed .\InvoicesExtract.py
 Mọi đóng góp (Pull Requests), tối ưu code, báo lỗi (Issues) đều được hoan nghênh tại kho lưu trữ chính thức!
 
 **GitHub Repository:** [github.com/cronpostps/InvoicesExtract](https://github.com/cronpostps/InvoicesExtract)
+
 **File thực thi (.exe):** [Download](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
 
 ## License
