@@ -4,8 +4,8 @@
 [![AI Model](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-F9AB00?style=for-the-badge&logo=google&logoColor=white)](#)
 [![GUI](https://img.shields.io/badge/GUI-Tkinter-lightgrey?style=for-the-badge)](#)
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cronpostps/InvoicesExtract)
-[![Latest Version](https://img.shields.io/badge/-Latest%20Version-blue?style=for-the-badge)](https://github.com/cronpostps/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anhnn83/InvoicesExtract)
+[![Latest Version](https://img.shields.io/badge/-Latest%20Version-blue?style=for-the-badge)](https://github.com/anhnn83/InvoicesExtract/releases/latest/download/InvoicesExtract.zip)
 
 > **InvoicesExtract AI** là công cụ tự động hóa trích xuất dữ liệu từ các hóa đơn, biên lai (PDF, Hình ảnh, XML) bằng sức mạnh của **Google Gemini API**. Hệ thống giúp số hóa dữ liệu hóa đơn hàng loạt, tự động phân loại tiền tệ và xuất ra file Excel chuẩn chỉnh, giúp kế toán viên tiết kiệm hàng giờ nhập liệu thủ công và hạn chế tối đa sai sót.
 
@@ -47,7 +47,7 @@ Nếu bạn không muốn tải file `.exe` có sẵn mà muốn tự chạy ho�
 
 Mở Terminal (CMD / PowerShell / VS Code) và chạy lệnh:
 ```bash
-git clone https://github.com/cronpostps/InvoicesExtract.git
+git clone https://github.com/anhnn83/InvoicesExtract.git
 cd InvoicesExtract
 ```
 
@@ -94,6 +94,6 @@ python -m PyInstaller --noconfirm --onefile --windowed .\InvoicesExtract.py
 
 <hr>
 <div align="center">
-  &copy; 2026 <a href="https://github.com/cronpostps">anhnn</a>. Mọi quyền được bảo lưu.<br>
+  &copy; 2026 <a href="https://github.com/anhnn83">anhnn</a>. Mọi quyền được bảo lưu.<br>
   <b>InvoicesExtract AI</b> được phát hành dưới giấy phép <a href="LICENSE">GNU GPLv3</a>.
 </div>
