@@ -1,6 +1,6 @@
 # 1. Đầu tiên, bỏ qua toàn bộ tất cả các file và thư mục
 *
-
+.venv/
 # 2. NHƯNG ngoại trừ (giữ lại) file mã nguồn chính và tài liệu
 !InvoicesExtract.py
 !.gitignore
