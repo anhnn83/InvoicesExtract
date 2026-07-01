@@ -1,13 +1,14 @@
 # 1. Đầu tiên, bỏ qua toàn bộ tất cả các file và thư mục
 *
-.venv/
 # 2. NHƯNG ngoại trừ (giữ lại) file mã nguồn chính và tài liệu
 !InvoicesExtract.py
 !.gitignore
 !README.md
 !LICENSE
-
+!requirements.txt
+!build.bat
 # 3. Ngoại trừ file Icon (Mở khóa thư mục trước, mở khóa file sau)
 !Icon/
 Icon/*
 !Icon/InvoicesExtract.ico
+!Icon/InvoicesExtract.png
